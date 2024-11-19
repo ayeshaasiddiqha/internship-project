@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="shortcut icon" type="png" href="logo3.jpg" />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Comaptible" content="IE=edge" />
+    <title>Smart Tutor</title>
+    <meta name="desciption" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script type="text/javascript" src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script>
+      $(window).on("scroll", function () {
+        if ($(window).scrollTop()) {
+          $("nav").addClass("black");
+        } else {
+          $("nav").removeClass("black");
+        }
+      });
+    </script>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <header id="header">
+      <nav>
+        <div class="logo">
+          <img src="logo3.jpg" alt="logo" style="width: 70px" />
+          
+          <h3>SMART TUTOR</h3>
+        </div>
+        
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="#Features_section">Features</a></li>
+          <li><a href="#team_section">Team</a></li>
+          <li><a href="#services_section">Services</a></li>
+          <li><a href="#contactus_section">Contact</a></li>
+          <li><a href="#review_section">Reviews</a></li>
+        </ul>
+        
+        <a class="get-started" href="login.html">Get Started</a>
+        <img
+          src="images/icon/menu.png"
+          class="menu"
+          onclick="sideMenu(0)"
+          alt="menu"
+        />
+      </nav>
+      <div class="head-container">
+        <div class="quote">
+          <p>
+            The beautiful thing about learning is that nobody can take it away
+            from you
+          </p>
+          <h5>
+            Education is the process of facilitating learning, or the
+            acquisition of knowledge, skills, values, beliefs, and habits.
+            Educational methods include teaching, training, storytelling,
+            discussion and directed research!
+          </h5>
+        </div>
+        <div class="svg-image">
+          <img src="undraw_designer_girl_re_h54c.svg" alt="svg" />
+        </div>
+      </div>
+      <div class="side-menu" id="side-menu">
+        <div class="close" onclick="sideMenu(1)">
+          <img src="images/icon/close.png" alt="" />
+        </div>
+        <div class="user">
+          <img src="tam.jpg" alt="Username" />
+          <p>Tamanna kouser</p>
+        </div>
+        <ul>
+          <li><a href="#about_section">About</a></li>
+          <li><a href="#Feature_section">Features</a></li>
+          <li><a href="#team_section">Team</a></li>
+          <li><a href="#services_section">Services</a></li>
+          <li><a href="#contactus_section">Contact</a></li>
+          <li><a href="#feedBACK">Feedback</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <!-- Some Popular Subjects -->
+    <div class="title">
+      <span>Things to explore on Smart Tutor</span>
+    </div>
+    <br /><br />
+    <div class="course">
+      <center>
+        <div class="cbox">
+          <div class="det">
+            <a href="fundamentalsofcomputer.html">
+              Computer Basics
+            </a>            
+          </div>
+          <div class="det">
+            <a href="ProgramingConcepts.html"
+              >Programming Lang</a
+            >
+          </div>
+          <div class="det">
+            <a href="OperatingSystems.html"
+              >O S</a
+            >
+          </div>
+        </div>
+      </center>
+      <div class="cbox">
+        <div class="det">
+          <a href="Networks.html"
+            >Networks</a
+          >
+        </div>
+        <div class="det">
+          <a href="datastructures.html"
+            >Data Structures</a
+          >
+        </div>
+        <div class="det">
+          <a href="DBMS.html"
+            >DBMS</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <!-- ABOUT -->
+    <div class="diffSection" id="about_section">
+      <center><p style="font-size: 50px; padding: 100px">About</p></center>
+      <div class="about-content">
+        <div class="side-image">
+          <img class="sideImage" src="undraw_engineering_team_a7n2.svg" />
+        </div>
+        <div class="side-text">
+          <h2>Know about us..</h2>
+          <p>
+            Welcome to Smart Tutor your go-to destination for mastering
+            knowledge through innovative flashcard learning.<br />
+            At Smart Tutor, we believe that learning should be engaging,
+            efficient, and personalized. Our platform offers a vast library of
+            customizable flashcards across various subjects, designed to help
+            you retain information and excel in your studies.<br />
+            Whether you're a student, professional, or lifelong learner, Smart
+            Tutor empowers you to achieve your educational goals with ease.<br />
+            Join our community and transform the way you learn, one flashcard at
+            a time.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Features -->
+    <div class="diffSection" id="Features_section">
+      <center>
+        <p style="font-size: 50px; padding: 100px; padding-bottom: 40px">
+          Features
+        </p>
+      </center>
+      <div class="content">
+        <p>
+          “Education is the passport to the future, for tomorrow belongs to
+          those who prepare for it today.” “Your attitude, not your aptitude,
+          will determine your altitude.” “If you think education is expensive,
+          try ignorance.” “The only person who is educated is the one who has
+          learned how to learn …and change.”
+        </p>
+      </div>
+    </div>
+    <div class="extra">
+      <p>To master a new technology you have to play with it</p>
+      <div class="smbox">
+        <span
+          ><center>
+            <img src="c1.jpg" height="200" width="200" alt=" " />
+          </center>
+        </span>
+        <span
+          ><center>
+            <img
+              src="IMG-20240529-WA0001 (1).jpg"
+              height="200"
+              width="200"
+              alt=" "
+            /></center
+        ></span>
+        <span
+          ><center>
+            <img src="c3.jpg" height="200" width="200" alt=" " /></center
+        ></span>
+        <span
+          ><center>
+            <img src="c4.jpg" height="200" width="200" alt=" " /></center
+        ></span>
+      </div>
+    </div>
+
+    <!-- TEAM -->
+    <div class="diffSection" id="team_section">
+      <center>
+        <p style="font-size: 50px; padding-top: 100px; padding-bottom: 60px">
+          We're the Creators
+        </p>
+      </center>
+      <div class="totalcard">
+        <div class="card">
+          <center><img src="aye.jpg" /></center>
+          <center>
+            <div class="card-title">Ayesha Siddiqha</div>
+            <div id="detail">
+              <div class="duty"></div>
+              <a href="" target="_blank"
+                ><button class="btn-ayesha">Follow</button></a
+              >
+            </div>
+          </center>
+        </div>
+        <div class="card">
+          <center><img src="tam.jpg" /></center>
+          <center>
+            <div class="card-title">Tamanna Kouser</div>
+            <div id="detail">
+              <div class="duty"></div>
+              <a href="" target="_blank"
+                ><button class="btn-tamanna">Follow</button></a
+              >
+            </div>
+          </center>
+        </div>
+      </div>
+    </div>
+
+    <!-- SERVICES -->
+    <div class="service-swipe">
+      <div class="diffSection" id="services_section">
+        <center>
+          <p
+            style="
+              font-size: 50px;
+              padding: 100px;
+              padding-bottom: 40px;
+              color: #fff;
+            "
+          >
+            Services
+          </p>
+        </center>
+      </div>
+      <a href="subjects/computer_courses.html"
+        ><div class="s-card">
+          <img src="undraw_projections_re_ulc6.svg" />
+          <p>Easy To Understand Computer Concepts</p>
+        </div></a
+      >
+      <a href="subjects/jee.html"
+        ><div class="s-card">
+          <img src="undraw_woman_ffrd.svg" />
+          <p>Discover Basic Concepts</p>
+        </div></a
+      >
+      <a href="#"
+        ><div class="s-card">
+          <img src="undraw_sharing_knowledge_03vp.svg" />
+          <p>Free Flashcards and Mindmaps</p>
+        </div></a
+      >
+      <a href="subjects/jee.html#sample_papers"
+        ><div class="s-card">
+          <img src="undraw_happy_news_re_tsbd.svg" />
+          <p>Quick To Memorise Concepts</p>
+        </div></a
+      >
+      <a href="#"
+        ><div class="s-card">
+          <img src="undraw_podcast_re_wr88.svg" />
+          <p>explore fundamental concepts from scratch</p>
+        </div></a
+      >
+      <a href="#contactus_section"
+        ><div class="s-card">
+          <img src="undraw_contact_us_re_4qqt.svg" />
+          <p> Your Safty is our first prefrence</p>
+        </div></a
+      >
+      <a href="subjects/quiz.html"
+        ><div class="s-card">
+          <img src="undraw_online_test_re_kyfx.svg" />
+          <p>Easy to Access site</p>
+        </div></a
+      >
+      <a href="#contactus_section"
+        ><div class="s-card">
+          <img src="undraw_services_re_hu5n.svg" />
+          <p>24x7 Online Support</p>
+        </div></a
+      >
+    </div>
+
+    <!-- Reviews by Students -->
+    
+    <div class="review">
+      <div class="diffSection" id="review_section">
+        <center>
+          <p
+            style="
+              font-size: 40px;
+              padding: 100px;
+              padding-bottom: 40px;
+              color: #2e3d49;
+            "
+          >
+            What the Students Say About Us?
+          </p>
+        </center>
+      </div>
+      <div class="rev-container">
+        <div class="rev-card">
+          <div class="identity">
+            <img src="nobita.jpg" />
+            <p>NOBITA NOBI</p>
+            <h6>Programming languages</h6>
+            <div class="rating">
+              <img src="images/icon/star.png" /><img
+                src="images/icon/star.png"
+              /><img src="images/icon/star.png" /><img
+                src="images/icon/star.png"
+              /><img src="images/icon/star.png" />
+            </div>
+          </div>
+          <div class="rev-cont">
+            <p id="title">Review:</p>
+            <p id="content">
+              even though i sleep a lot during study time, but smart tutor
+              helped me to find study interesting as it provided me with alot of
+              flashcards and mindmaps so no gadgets are required now...
+            </p>
+          </div>
+        </div>
+        <div class="rev-card">
+          <div class="identity">
+            <img src="shizuka.jpg" />
+            <p>Shizuka Minaoto</p>
+            <h6>C/C++</h6>
+            <div class="rating">
+              <img src="images/icon/star.png" /><img
+                src="images/icon/star.png"
+              /><img src="images/icon/star.png" /><img
+                src="images/icon/star.png"
+              /><img src="images/icon/star.png" />
+            </div>
+          </div>
+          <div class="rev-cont">
+            <p id="title">Review:</p>
+            <p id="content">
+              even though i spend alot of time for piano classes , smart tutor
+              helped me to revise context very easily and gain precise
+              confidence for exams
+            </p>
+          </div>
+        </div>
+        <div class="rev-card">
+          <div class="identity">
+            <img src="soneo.jpg" />
+            <p>Suneo Honekawa</p>
+            <h6>Cloud Computing</h6>
+            <div class="rating">
+              <img src="images/icon/star.png" /><img
+                src="images/icon/star.png"
+              /><img src="images/icon/star.png" /><img
+                src="images/icon/star.png"
+              /><img src="images/icon/star.png" />
+            </div>
+          </div>
+          <div class="rev-cont">
+            <p id="title">Review:</p>
+            <p id="content">
+              study tutor was an amazing experience for me. furthermore its
+              obvious that im smart it was quite easy to find coding interesting
+              . Coding is important no matter which branch you are in. It gives
+              you a better understanding about how to approach a problem...
+            </p>
+          </div>
+        </div>
+        <div class="rev-card">
+          <div class="identity">
+            <img src="gian.jpg" />
+            <p>Gian</p>
+            <h6>Python</h6>
+            <div class="rating">
+              <img src="images/icon/star.png" /><img
+                src="images/icon/star.png"
+              /><img src="images/icon/star.png" /><img
+                src="images/icon/star.png"
+              /><img src="images/icon/star.png" />
+            </div>
+          </div>
+          <div class="rev-cont">
+            <p id="title">Review:</p>
+            <p id="content">
+              smart tutor helped me to gain knowledge easily . usually i spend
+              my day beating my friends but after my experience with smart tutor
+              i cant move from my PC. I would certainly recommend this to
+              anyone...
+            </p>
+          </div>
+        </div>
+        <div class="rev-card">
+          <div class="identity">
+            <img src="dekisugi.jpg" />
+            <p>Dekisugi</p>
+            <h6>Python</h6>
+            <div class="rating">
+              <img src="images/icon/star.png" /><img
+                src="images/icon/star.png"
+              /><img src="images/icon/star.png" /><img
+                src="images/icon/star.png"
+              /><img src="images/icon/star.png" />
+            </div>
+          </div>
+          <div class="rev-cont">
+            <p id="title">Review:</p>
+            <p id="content">
+              my friends ask me how im i so much intelligent and how i find
+              study so much interesting so here is the answer, Smart Tutor is
+              the secret of my energy
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CONTACT US -->
+    <div class="diffSection" id="contactus_section">
+      <center><p style="font-size: 50px; padding: 100px">Contact Us</p></center>
+      <div class="csec"></div>
+      <div class="back-contact">
+        <div class="cc">
+          <form
+            action="smarttutor@gmail.com"
+            method="post"
+            enctype="text/plain"
+          >
+            <label>First Name <span class="imp">*</span></label
+            ><label style="margin-left: 185px"
+              >Last Name <span class="imp">*</span></label
+            ><br />
+            <center>
+              <input
+                type="text"
+                name=""
+                style="margin-right: 10px; width: 175px"
+                required="required"
+              /><input
+                type="text"
+                name="lname"
+                style="width: 175px"
+                required="required"
+              /><br />
+            </center>
+            <label>Email <span class="imp">*</span></label
+            ><br />
+            <input
+              type="email"
+              name="mail"
+              style="width: 100%"
+              required="required"
+            /><br />
+            <label>Message <span class="imp">*</span></label
+            ><br />
+            <input
+              type="text"
+              name="message"
+              style="width: 100%"
+              required="required"
+            /><br />
+            <label>Additional Details</label><br />
+            <textarea name="addtional"></textarea><br />
+            <button type="submit" id="csubmit">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- FEEDBACK -->
+    <div class="title2" id="feedBACK">
+      <span>Give Feedback</span>
+      <div class="shortdesc2">
+        <p>Please share your valuable feedback to us</p>
+      </div>
+    </div>
+
+    <div class="feedbox">
+      <div class="feed">
+        <form
+          action="mailto:smarttutor@gmail.com"
+          method="post"
+          enctype="text/plain"
+        >
+          <label>Your Name</label><br />
+          <input type="text" name="" class="fname" required="required" /><br />
+          <label>Email</label><br />
+          <input type="email" name="mail" required="required" /><br />
+          <label>Additional Details</label><br />
+          <textarea name="addtional"></textarea><br />
+          <button type="submit" id="csubmit">Send Message</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Sliding Information -->
+    <marquee
+      style="
+        background: linear-gradient(to right, #0657b4, #92e4f8);
+        margin-top: 50px;
+      "
+      direction="left"
+      onmouseover="this.stop()"
+      onmouseout="this.start()"
+      scrollamount="20"
+      ><div class="marqu">
+        “Smart tutor helps students to understand the basic terms and concepts
+        of technology in easiest way , through mind maps and Flash cards .
+        ContactSmartTutor@gmail.com for further queries”
+      </div></marquee
+    >
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="footer-container">
+        <div class="left-col">
+          <img src="logo3.jpg" style="width: 70px" />
+          <div class="logo"></div>
+          <div class="social-media">
+            <a href="#"><img src="images/icon\fb.png" /></a>
+            <a href="#"><img src="images/icon\insta.png" /></a>
+            <a href="#"><img src="images/icon\tt.png" /></a>
+            <a href="#"><img src="images/icon\ytube.png" /></a>
+            <a href="#"><img src="images/icon\linkedin.png" /></a>
+          </div>
+          <br /><br />
+          <p class="rights-text">
+            Copyright © 2021 Created By Tamanna Kouser, Ayesha siddiqha All
+            Rights Reserved.
+          </p>
+          <br />
+          <p>
+            <img src="images/icon/location.png" /> Governament Science
+            College,Davanagere University<br />chitradurga, karnataka-577501
+          </p>
+          <br />
+          <p>
+            <img src="images/icon/phone.png" /> +91-1234-567-890<br /><img
+              src="images/icon/mail.png"
+            />&nbsp; smarttutor@gmail.com
+          </p>
+        </div>
+        <div class="right-col">
+          <h1 style="color: #fff">Our Newsletter</h1>
+          <div class="border"></div>
+          <br />
+          <p>Enter Your Email to get our News and updates.</p>
+          <form class="newsletter-form">
+            <input class="txtb" type="email" placeholder="Enter Your Email" />
+            <input class="btn" type="submit" value="Submit" />
+          </form>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
